@@ -1,0 +1,40 @@
+name: open_weather_bloc_listener
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.1 <3.0.0'
+
+dependencies:
+  
+  cupertino_icons: ^1.0.2
+  equatable: 2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: 8.0.1
+  flutter_dotenv: 5.0.2
+  get_it: ^7.6.4
+  google_fonts: ^4.0.4
+  http: 0.13.4
+  recase: 4.0.0
+
+dev_dependencies:
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.4
+  mocktail: ^1.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/loading.gif
+    - .env
+
